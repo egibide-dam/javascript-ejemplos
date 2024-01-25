@@ -1,13 +1,7 @@
 # javascript-ejemplos
 
-```
- _________________________________________ 
-/ "If I do not want others to quote me, I \
-\ do not speak." -- Phil Wayne            /
- ----------------------------------------- 
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-```
+Ejemplos para explicar JavaScript.
+
+## Referencias
+
+- [¿Qué es JavaScript?](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
