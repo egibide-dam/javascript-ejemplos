@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Primer ejemplo</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container p-5">
+<h1>Primer ejemplo</h1>
+<button class="btn btn-primary">Player 1: Chris</button>
+<script>
+    const button = document.querySelector("button");
+
+    button.addEventListener("click", updateName);
+
+    function updateName() {
+        const name = prompt("Enter a new name");
+        button.textContent = `Player 1: ${name}`;
+    }
+</script>
+</body>
+</html>
