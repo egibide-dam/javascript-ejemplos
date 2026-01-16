@@ -8,4 +8,4 @@ fetch('https:://invalid_url')
         }
     })
     .then(data => console.log(data))
-    .catch(error => console.log('Error: ', error));
+    .catch(error => console.log('Error detectado: ', error));
